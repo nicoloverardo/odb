@@ -1,0 +1,1 @@
+squirrel --releasify "E:\VS Projects\OutlookDataBackup\OutlookDataBackup.0.0.1.nupkg"

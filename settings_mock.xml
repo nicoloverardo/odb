@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+    <Token></Token>
+    <ConflictBehavior></ConflictBehavior>
+    <SplitSize></SplitSize>
+    <Files>
+        <File name="Aaaaa.pst">
+            <Location></Location>
+            <Destination></Destination>
+            <Size></Size>
+            <Progress></Progress>
+            <ZipParts>
+                <Part name="Aaaaa.pst.7z">
+                    <Location></Location>
+                    <Destination></Destination>
+                    <Size></Size>
+                    <Progress></Progress>
+                    <Hash></Hash>
+                </Part>
+                <Part name="Aaaaa.pst.7z.part1">
+                    <Location></Location>
+                    <Destination></Destination>
+                    <Size></Size>
+                    <Progress></Progress>
+                    <Hash></Hash>
+                </Part>
+            </ZipParts>
+        </File>
+    </Files>
+</Settings>
