@@ -1,0 +1,17 @@
+﻿<Window x:Name="folderBrowserWindow" x:Class="OutlookDataBackup.FolderBrowserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OutlookDataBackup"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="Choose the destination OneDrive folder" Height="530.669" Width="341.253" Loaded="FolderBrowserWindow_Loaded" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <TreeView x:Name="foldersTreeView" Margin="10,40,10,41" SelectedItemChanged="FoldersTreeView_SelectedItemChanged"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,10,10" Height="26" Click="CancelButton_Click"/>
+        <Button x:Name="okButton" Content="OK" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,90,10" Height="26" Click="OkButton_Click"/>
+        <TextBlock x:Name="currentFolderTextBlock" HorizontalAlignment="Stretch" Margin="10,10,10,0" TextWrapping="Wrap" TextTrimming="CharacterEllipsis" Text="Selected folder:" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
